@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#chat-messages {
+    min-height: 10vh;
+    height: 60vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+#teste {
+	-webkit-border-radius: 67px;
+	-moz-border-radius: 67px;
+	border-radius: 67px;
+	background-image: url(https://i.imgur.com/F422qQP.png);
+}
+
+
+header img {
+  border-radius: 50%;
+  margin: 8px auto;
+  display: block;
+  width: 90px;
+  border: 5px solid rgb(8, 8, 8);
+}
+
+aside {
+  border-top: 0px solid rgb(0, 0, 0);
+  border-bottom: 0px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  margin: 5 auto;
+  display: block;
+  height: 110px;
+  width: 110px;
+  background: url(https://cdn.discordapp.com/attachments/392764301070434317/393905604306927617/Sem_Titulo-2.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0 0 0px 0px #fff;
+  transition: all ease 0.5s;
+}
+
+aside:hover {
+  border-top: 4px solid rgb(0, 0, 0);
+  border-bottom: 4px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 480px;
+  width: 350px;
+  box-shadow: 0 0 70px 10px #fff;
+}
+
+aside:hover header img {
+  animation: profile_image 2000ms linear both;
+  animation-delay: 0.5s;
+}
+
+header {
+  text-align: center;
+}
+
+
+
+
+
+
